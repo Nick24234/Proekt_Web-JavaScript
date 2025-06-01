@@ -1,0 +1,217 @@
+{
+  "categories": [
+    {
+      "id": "fiction",
+      "name": "Fiction",
+      "description": "Imaginative stories and novels",
+      "books": [
+        {
+          "id": 1,
+          "title": "The Great Gatsby",
+          "author": "F. Scott Fitzgerald",
+          "description": "A classic American novel about the Jazz Age and the American Dream. Set in the summer of 1922, it follows Nick Carraway as he observes the tragic story of his mysterious neighbor Jay Gatsby.",
+          "image": "img\\e.bmp",
+          "rating": 4.9,
+          "year": 1925
+        },
+        {
+          "id": 2,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "description": "A gripping tale of racial injustice and childhood innocence in the American South. Through the eyes of Scout Finch, we witness her father's courageous defense of a black man falsely accused of rape.",
+          "image": "img\\e.bmp",
+          "rating": 4.8,
+          "year": 1960
+        },
+        {
+          "id": 3,
+          "title": "1984",
+          "author": "George Orwell",
+          "description": "A dystopian social science fiction novel about totalitarian control. Winston Smith struggles against the oppressive regime of Big Brother in a world where truth is constantly rewritten.",
+          "image": "img\\e.bmp",
+          "rating": 4.7,
+          "year": 1949
+        },
+        {
+          "id": 4,
+          "title": "Pride and Prejudice",
+          "author": "Jane Austen",
+          "description": "A romantic novel about manners, upbringing, and marriage in Georgian England. Elizabeth Bennet navigates the complex world of social expectations and finds love with the proud Mr. Darcy.",
+          "image": "img\\e.bmp",
+          "rating": 4.6,
+          "year": 1813
+        }
+      ]
+    },
+    {
+      "id": "mystery",
+      "name": "Mystery & Thriller",
+      "description": "Suspenseful and intriguing stories",
+      "books": [
+        {
+          "id": 5,
+          "title": "The Girl with the Dragon Tattoo",
+          "author": "Stieg Larsson",
+          "description": "A psychological thriller about a journalist and a hacker investigating a wealthy family's dark secrets. Mikael Blomkvist teams up with the enigmatic Lisbeth Salander in this gripping Nordic noir.",
+          "image": "img\\e.bmp",
+          "rating": 4.3,
+          "year": 2005
+        },
+        {
+          "id": 6,
+          "title": "Gone Girl",
+          "author": "Gillian Flynn",
+          "description": "A psychological thriller about a marriage gone terribly wrong. When Amy Dunne disappears on her wedding anniversary, her husband Nick becomes the prime suspect in this twisted tale of deception.",
+          "image": "img\\e.bmp",
+          "rating": 4.2,
+          "year": 2012
+        },
+        {
+          "id": 7,
+          "title": "The Da Vinci Code",
+          "author": "Dan Brown",
+          "description": "A mystery thriller involving art, history, and secret societies. Robert Langdon races through Paris and London to solve a murder that reveals a conspiracy spanning centuries.",
+          "image": "img\\e.bmp",
+          "rating": 4.1,
+          "year": 2003
+        }
+      ]
+    },
+    {
+      "id": "scifi",
+      "name": "Science Fiction",
+      "description": "Futuristic and speculative fiction",
+      "books": [
+        {
+          "id": 8,
+          "title": "Dune",
+          "author": "Frank Herbert",
+          "description": "An epic space opera set in a distant future where noble houses fight for control of the desert planet Arrakis, the only source of the universe's most valuable substance.",
+          "image": "img\\e.bmp",
+          "rating": 4.9,
+          "year": 1965
+        },
+        {
+          "id": 9,
+          "title": "The Hitchhiker's Guide to the Galaxy",
+          "author": "Douglas Adams",
+          "description": "A comedic science fiction series about space travel. Arthur Dent is swept off Earth just before its destruction and embarks on a hilarious journey through the galaxy.",
+          "image": "img\\e.bmp",
+          "rating": 4.4,
+          "year": 1979
+        },
+        {
+          "id": 10,
+          "title": "Neuromancer",
+          "author": "William Gibson",
+          "description": "A cyberpunk novel that defined the genre. Case, a washed-up computer hacker, is hired for one last job that takes him into cyberspace and corporate espionage.",
+          "image": "img\\e.bmp",
+          "rating": 4.3,
+          "year": 1984
+        }
+      ]
+    },
+    {
+      "id": "fantasy",
+      "name": "Fantasy",
+      "description": "Magical worlds and mythical creatures",
+      "books": [
+        {
+          "id": 11,
+          "title": "The Lord of the Rings",
+          "author": "J.R.R. Tolkien",
+          "description": "An epic high fantasy adventure in Middle-earth. Frodo Baggins must destroy the One Ring to save his world from the Dark Lord Sauron in this timeless tale of good versus evil.",
+          "image": "img\\e.bmp",
+          "rating": 4.9,
+          "year": 1954
+        },
+        {
+          "id": 12,
+          "title": "Harry Potter and the Philosopher's Stone",
+          "author": "J.K. Rowling",
+          "description": "A young wizard discovers his magical heritage and attends Hogwarts School of Witchcraft and Wizardry, where he uncovers the truth about his parents' death.",
+          "image": "img\\e.bmp",
+          "rating": 4.7,
+          "year": 1997
+        },
+        {
+          "id": 13,
+          "title": "A Game of Thrones",
+          "author": "George R.R. Martin",
+          "description": "Political intrigue and fantasy in the Seven Kingdoms. Noble families vie for control of the Iron Throne while an ancient evil awakens in the north.",
+          "image": "img\\e.bmp",
+          "rating": 4.6,
+          "year": 1996
+        }
+      ]
+    },
+    {
+      "id": "romance",
+      "name": "Romance",
+      "description": "Love stories and romantic adventures",
+      "books": [
+        {
+          "id": 14,
+          "title": "The Notebook",
+          "author": "Nicholas Sparks",
+          "description": "A timeless love story that spans decades. Noah and Allie's passionate romance is tested by social differences and the passage of time in this emotional tale.",
+          "image": "img\\e.bmp",
+          "rating": 4.4,
+          "year": 1996
+        },
+        {
+          "id": 15,
+          "title": "Outlander",
+          "author": "Diana Gabaldon",
+          "description": "Time travel romance between a WWII nurse and 18th-century Highlander. Claire Randall is mysteriously transported back in time where she meets Jamie Fraser.",
+          "image": "img\\e.bmp",
+          "rating": 4.5,
+          "year": 1991
+        },
+        {
+          "id": 16,
+          "title": "Me Before You",
+          "author": "Jojo Moyes",
+          "description": "An emotional story about love, loss, and living life to the fullest. Louisa Clark becomes a caregiver for Will Traynor, a quadriplegic man who changes her perspective on life.",
+          "image": "img\\e.bmp",
+          "rating": 4.3,
+          "year": 2012
+        }
+      ]
+    },
+    {
+      "id": "nonfiction",
+      "name": "Non-Fiction",
+      "description": "Educational and informative books",
+      "books": [
+        {
+          "id": 17,
+          "title": "Sapiens",
+          "author": "Yuval Noah Harari",
+          "description": "A brief history of humankind and our species' development. From the Stone Age to the Silicon Age, this book explores how Homo sapiens came to dominate the world.",
+          "image": "img\\e.bmp",
+          "rating": 4.6,
+          "year": 2011
+        },
+        {
+          "id": 18,
+          "title": "Educated",
+          "author": "Tara Westover",
+          "description": "A memoir about education, family, and the struggle for self-invention. Tara Westover grows up in a survivalist family and eventually earns a PhD from Cambridge University.",
+          "image": "img\\e.bmp",
+          "rating": 4.7,
+          "year": 2018
+        },
+        {
+          "id": 19,
+          "title": "Atomic Habits",
+          "author": "James Clear",
+          "description": "An easy and proven way to build good habits and break bad ones. This practical guide reveals how tiny changes can lead to remarkable results over time.",
+          "image": "img\\e.bmp",
+          "rating": 4.8,
+          "year": 2018
+        }
+      ]
+    }
+  ]
+}

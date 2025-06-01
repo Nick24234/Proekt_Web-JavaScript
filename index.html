@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+
+    <title>BookVerse - Discover Your Next Great Read</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">📚</span>
+                <span class="logo-text">BookVerse</span>
+            </div>
+
+            <div class="nav-menu" id="nav-menu">
+                <button class="nav-link active" data-category="all">All Books</button>
+                <button class="nav-link" data-category="fiction">Fiction</button>
+                <button class="nav-link" data-category="mystery">Mystery & Thriller</button>
+                <button class="nav-link" data-category="scifi">Science Fiction</button>
+                <button class="nav-link" data-category="fantasy">Fantasy</button>
+                <button class="nav-link" data-category="romance">Romance</button>
+                <button class="nav-link" data-category="nonfiction">Non-Fiction</button>
+                <button id="game-btn" class="game-btn">🎮 Play Game</button>
+            </div>
+
+            <div class="nav-user">
+                <span id="user-greeting" class="user-greeting"></span>
+            </div>
+
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </div>
+        </div>
+    </nav>
+
+    <div id="greeting-modal" class="modal">
+        <div class="modal-content greeting-content">
+            <h2 id="greeting-text">Hello! Welcome to BookVerse! 📚</h2>
+        </div>
+    </div>
+
+    <div id="game-modal" class="modal">
+        <div class="modal-content game-content">
+            <div class="modal-header">
+                <h3>Book Word Game</h3>
+                <button class="close-btn" id="close-game">&times;</button>
+            </div>
+            <div class="game-body">
+                <p class="game-score">Score: <span id="game-score">0</span></p>
+                <div class="game-word" id="game-word"></div>
+                <div id="game-complete" class="game-complete hidden">Congratulations! You won!</div>
+                <div class="game-letters" id="game-letters"></div>
+                <button id="new-game-btn" class="new-game-btn">New Game</button>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <div class="header-section">
+            <h1 class="main-title">Discover Your Next Great Read</h1>
+            <p class="main-subtitle">Explore our curated collection of books across multiple genres</p>
+
+            <div class="user-input-section">
+                <form id="name-form" class="name-form">
+                    <input type="text" id="user-name" placeholder="Enter your name for a personalized experience" class="name-input">
+                    <button type="submit" class="greet-btn">Greet Me!</button>
+                </form>
+            </div>
+
+            <div class="search-section">
+                <div class="search-container">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="search-input" placeholder="Search books or authors..." class="search-input">
+                </div>
+            </div>
+        </div>
+
+        <div id="category-description" class="category-description hidden">
+            <h2 id="category-title" class="category-title"></h2>
+            <p id="category-desc" class="category-desc"></p>
+        </div>
+
+        <div id="books-grid" class="books-grid">
+
+        </div>
+
+        <div id="no-results" class="no-results hidden">
+            <p>No books found matching your search criteria.</p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3 class="footer-title">👥 Developers</h3>
+                <p>Created by Mykola Fetsiak and Liubomyr Kuchirka</p>
+                <p>Passionate about connecting readers with great books</p>
+            </div>
+
+            <div class="footer-section">
+                <h3 class="footer-title">User Information</h3>
+                <div id="footer-user-info">
+                    <p>Enter your name above for a personalized experience</p>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3 class="footer-title">© Copyright</h3>
+                <p>© 2024 BookVerse. All rights reserved.</p>
+                <p>Book data used for educational purposes only.</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Built with HTML, CSS, JavaScript and lots of ❤️ for books</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
