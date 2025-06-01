@@ -216,7 +216,7 @@ function renderBooks() {
       (book) => `
     <div class="book-card">
       <div class="book-image-container">
-        <img src="${book.image}" alt="${book.title}" class="book-image" onerror="this.src='https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=200&h=300&fit=crop'">
+        <img src="${book.image}" alt="${book.title}" class="book-image" onerror="this.img\\error.bmp">
         <div class="book-year">${book.year}</div>
       </div>
       <div class="book-content">
